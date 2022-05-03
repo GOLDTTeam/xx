@@ -15,10 +15,10 @@ from time import sleep
 os.system('clear')
 lib = input('''\033[1;97m
 
-(1) Download lib & update
-(2) pass
+- 1 تحميل مكاتب 
+- دخول مباشر
 
-(∆) Please Choose : ''')
+(∆) ختار ونجب : ''')
 
 if lib == '1':
     os.system('pip install requests')
@@ -103,7 +103,7 @@ def baner():
  — — — — — — — — — \n
 """              
 	for marcos in banera.splitlines():
-		time.sleep(0.02)
+		time.sleep(0.09)
 		print(marcos)
 	
 	
@@ -220,7 +220,7 @@ while ____ic____ <= ____itotal____ - 1:
     ____ntim____ = int(float(int(____fcx____)) / float(____cnum____))
     time.sleep(0.1)
     if int(____pqt____) > ____cnum____:
-        time.sleep(25)
+        time.sleep(15)
 
 print ('\n')
 while True:
